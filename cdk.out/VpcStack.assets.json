@@ -1,0 +1,19 @@
+{
+  "version": "16.0.0",
+  "files": {
+    "91696b7492094113a91685a9e61e8cfddc92d5108063ffa2da1ee3ca5b454a82": {
+      "source": {
+        "path": "VpcStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "91696b7492094113a91685a9e61e8cfddc92d5108063ffa2da1ee3ca5b454a82.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
